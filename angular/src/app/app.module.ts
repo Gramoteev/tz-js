@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { MyComponent } from './my-component/my.component';
 import { ParentCounterComponent } from './parent-counter/parent-counter.component';
 import { ChildCounterComponent } from './parent-counter/child-counter/child-counter.component';
+import { ImgFallbackDirective } from './imgFallback/img-fallback.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     MyComponent,
     ParentCounterComponent,
-    ChildCounterComponent
+    ChildCounterComponent,
+    ImgFallbackDirective
   ],
   imports: [
     BrowserModule

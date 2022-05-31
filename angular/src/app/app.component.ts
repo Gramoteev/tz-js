@@ -7,7 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   parentValue = 0;
-
   changeValue() {
     this.parentValue++;
   }

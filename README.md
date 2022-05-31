@@ -6,4 +6,4 @@
 
 #5 см. `angular-task-5.md`
 
-#6 см `angular/src/app/imgFallback`
+#6 см. `angular/src/app/imgFallback`
